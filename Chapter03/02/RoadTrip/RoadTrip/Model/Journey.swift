@@ -1,9 +1,9 @@
 import Foundation
 
 struct Journey {
-  var transportationType: TransportationType
-  var startDate: Date
-  var duration: TimeInterval
+  let transportationType: TransportationType
+  let startDate: Date
+  let duration: TimeInterval
   
   init(transportationType: TransportationType = TransportationType.random(),
        startDate: Date = Date().addingTimeInterval(TimeInterval.random(in: -7 * 24 * 60 * 60.0...0)),

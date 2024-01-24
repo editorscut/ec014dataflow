@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		623050A42B5FF2DC0020C52A /* JourneyDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623050A32B5FF2DC0020C52A /* JourneyDateView.swift */; };
+		623050AA2B61436A0020C52A /* JourneyEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623050A92B61436A0020C52A /* JourneyEditorView.swift */; };
 		62F2A4A12B54299F007B048D /* RoadTripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2A4A02B54299F007B048D /* RoadTripApp.swift */; };
 		62F2A4A32B54299F007B048D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2A4A22B54299F007B048D /* ContentView.swift */; };
 		62F2A4A52B5429A0007B048D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F2A4A42B5429A0007B048D /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		623050A32B5FF2DC0020C52A /* JourneyDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyDateView.swift; sourceTree = "<group>"; };
+		623050A92B61436A0020C52A /* JourneyEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyEditorView.swift; sourceTree = "<group>"; };
 		62F2A49D2B54299F007B048D /* RoadTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F2A4A02B54299F007B048D /* RoadTripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadTripApp.swift; sourceTree = "<group>"; };
 		62F2A4A22B54299F007B048D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				62F303822B5D72390002EA19 /* JourneyView.swift */,
 				62F303842B5D724D0002EA19 /* EditableJourneyView.swift */,
+				623050A92B61436A0020C52A /* JourneyEditorView.swift */,
 			);
 			path = "Journey Views";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				62F303852B5D724D0002EA19 /* EditableJourneyView.swift in Sources */,
 				62F2A4B42B542A6B007B048D /* TransportationType.swift in Sources */,
 				62F2A4A32B54299F007B048D /* ContentView.swift in Sources */,
+				623050AA2B61436A0020C52A /* JourneyEditorView.swift in Sources */,
 				62F2A4B72B542CB6007B048D /* TransportationTypeView.swift in Sources */,
 				62F3038B2B5D72CF0002EA19 /* JourneyEndTimeView.swift in Sources */,
 				62F2A4A12B54299F007B048D /* RoadTripApp.swift in Sources */,

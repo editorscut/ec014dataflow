@@ -1,12 +1,13 @@
 import SwiftUI
 
 struct ContentView {
-  private let journey = Journey()
+  @State private var journey = Journey()
 }
 
 extension ContentView: View {
   var body: some View {
-    JourneyView(journey: journey)
+    let _ = Self._printChanges()
+    EditableJourneyView(journey: $journey)
   }
 }
 

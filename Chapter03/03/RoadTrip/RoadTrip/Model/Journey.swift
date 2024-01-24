@@ -1,7 +1,7 @@
 import Foundation
 
 struct Journey {
-  let transportationType: TransportationType
+  var transportationType: TransportationType
   let startDate: Date
   let duration: TimeInterval
   
