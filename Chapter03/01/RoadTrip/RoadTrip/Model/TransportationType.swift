@@ -1,6 +1,6 @@
 let types = TransportationType.allCases
 
-enum TransportationType: Int, Codable, CaseIterable, Hashable {
+enum TransportationType: Codable, CaseIterable, Hashable {
   case walkOrRun
   case skateboard
   case scooter
@@ -12,8 +12,8 @@ enum TransportationType: Int, Codable, CaseIterable, Hashable {
 }
 
 extension TransportationType: Identifiable {
-  var id: Int {
-    rawValue
+  var id: Self {
+    self
   }
 }
 
