@@ -6,8 +6,8 @@ class JourneyController: ObservableObject {
 
 extension JourneyController {
   func changeTransportationType(to newTransportationType: TransportationType) {
-   journey = Journey(transportationType: newTransportationType,
-                     startDate: journey.startDate,
-                     duration: journey.duration)
+    journey = Journey(transportationType: newTransportationType,
+                      startDate: journey.startDate,
+                      duration: journey.duration)
   }
 }

@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct JourneyView {
-  let journey: Journey
+  @Environment(Journey.self) private var journey
 }
 
 extension JourneyView: View {
@@ -17,7 +17,6 @@ extension JourneyView: View {
   }
 }
 
-
 #Preview {
-  JourneyView(journey: Journey())
+  JourneyView()
 }

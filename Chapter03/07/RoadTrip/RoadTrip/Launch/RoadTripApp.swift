@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct RoadTripApp {
+  @State private var journey = Journey()
 }
 
 extension RoadTripApp: App {
@@ -9,5 +10,6 @@ extension RoadTripApp: App {
     WindowGroup {
       ContentView()
     }
+    .environment(journey)
   }
 }

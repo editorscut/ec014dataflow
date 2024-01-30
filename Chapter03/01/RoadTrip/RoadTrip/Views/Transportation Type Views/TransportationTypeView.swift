@@ -17,7 +17,6 @@ extension TransportationTypeView: View {
   }
 }
 
-
 #Preview {
   TransportationTypeView()
 }

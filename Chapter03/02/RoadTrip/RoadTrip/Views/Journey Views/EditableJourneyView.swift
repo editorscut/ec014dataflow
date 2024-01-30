@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct EditableJourneyView {
+  
 }
 
 extension EditableJourneyView: View {

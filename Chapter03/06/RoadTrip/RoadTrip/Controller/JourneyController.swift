@@ -4,6 +4,7 @@ class JourneyController {
   private var journey = Journey()
   let (journeyStream, continuation) = AsyncStream.makeStream(of: Journey.self)
   let initialJourney: Journey
+  
   init() {
     initialJourney = journey
   }

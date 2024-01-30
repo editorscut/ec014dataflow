@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView {
-  let controller = JourneyController()
+  private let controller = JourneyController()
 }
 
 extension ContentView: View {

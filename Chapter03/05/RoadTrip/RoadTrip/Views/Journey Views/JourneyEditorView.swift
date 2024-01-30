@@ -12,5 +12,4 @@ extension JourneyEditorView: View {
 
 #Preview {
   JourneyEditorView()
-    .environmentObject(JourneyController())
 }

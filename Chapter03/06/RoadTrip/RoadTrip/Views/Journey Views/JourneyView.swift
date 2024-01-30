@@ -22,7 +22,6 @@ extension JourneyView: View {
   }
 }
 
-
 #Preview {
   JourneyView()
 }
