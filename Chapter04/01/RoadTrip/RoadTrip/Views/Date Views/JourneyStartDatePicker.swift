@@ -1,17 +1,17 @@
 import SwiftUI
 
 struct JourneyStartDatePicker {
-  @Bindable var journey: Journey
+  @Binding var startDate: Date
 }
 
 extension JourneyStartDatePicker: View {
   var body: some View {
-    DatePicker("Start Date Picker", 
-               selection: $journey.startDate)
+    DatePicker("Start Date:",
+               selection: $startDate)
     .padding()
   }
 }
 
 #Preview {
-  JourneyStartDatePicker(journey: Journey())
+  JourneyStartDatePicker(startDate: .constant(Date()))
 }

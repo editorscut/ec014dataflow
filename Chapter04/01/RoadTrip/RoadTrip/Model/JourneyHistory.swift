@@ -2,7 +2,7 @@ import Observation
 
 @Observable
 class JourneyHistory {
-  private(set) var journeys: [Journey] = [Journey()]
+  private(set) var journeys: [Journey] = []
 }
 
 extension JourneyHistory {

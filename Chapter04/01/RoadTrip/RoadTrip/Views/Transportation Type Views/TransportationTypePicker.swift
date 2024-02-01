@@ -1,13 +1,14 @@
 import SwiftUI
 
 struct TransportationTypePicker {
-  @Bindable var journey: Journey
+  @Binding var transportationType: TransportationType
 }
 
 extension TransportationTypePicker: View {
   var body: some View {
+    let _ = Self._printChanges()
     Picker("Transportation Type",
-           selection: $journey.transportationType) {
+           selection: $transportationType) {
       ForEach(types) {type in
         Image(systemName: type.iconName)
           .tag(type)
@@ -20,5 +21,5 @@ extension TransportationTypePicker: View {
 
 
 #Preview {
-  TransportationTypePicker(journey: Journey())
+  TransportationTypePicker(transportationType: .constant(.bike))
 }

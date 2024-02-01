@@ -1,15 +1,15 @@
 import SwiftUI
 
 struct JourneyEditorView {
-  let journey: Journey
+  @Bindable var journey: Journey
 }
 
 extension JourneyEditorView: View {
   var body: some View {
     VStack {
-      TransportationTypePicker(journey: journey)
-      JourneyStartDatePicker(journey: journey)
-      JourneyDurationSelector(journey: journey)
+      TransportationTypePicker(transportationType: $journey.transportationType)
+      JourneyStartDatePicker(startDate: $journey.startDate)
+      JourneyDurationSelector(duration: $journey.duration)
     }
   }
 }

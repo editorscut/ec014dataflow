@@ -1,7 +1,7 @@
 import Foundation
 
 struct Persistence {
-  static func save(_ journies: [Journey]) {
+  static func save(_ journeys: [Journey]) {
   }
   
   static func retrieve() -> [Journey] {
@@ -18,13 +18,12 @@ extension Persistence {
         .urls(for: .documentDirectory,
               in: .userDomainMask)
           .first?
-        .appendingPathComponent("JourniesData"),
-         FileManager.default.fileExists(atPath: url.path){
+        .appendingPathComponent("JourniesData") {
         return url
       } else {
-        throw URLError(.fileDoesNotExist)
+        throw URLError(.badURL)
       }
-
     }
   }
 }
+

@@ -1,17 +1,17 @@
 import SwiftUI
 
 struct JourneyDurationSelector {
-  @Bindable var journey: Journey
+  @Binding var duration: TimeInterval
 }
 
 extension JourneyDurationSelector: View {
   var body: some View {
-    Slider(value: $journey.duration,
-           in: 60...3600)
+    Slider(value: $duration,
+           in: 50...3600)
     .padding()
   }
 }
 
 #Preview {
-  JourneyDurationSelector(journey: Journey())
+  JourneyDurationSelector(duration: .constant(1000))
 }
