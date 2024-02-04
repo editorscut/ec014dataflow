@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6224A42F2B6D3A4D00126413 /* RoadTripCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224A42E2B6D3A4D00126413 /* RoadTripCDApp.swift */; };
+		6224A4312B6D3A4D00126413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4302B6D3A4D00126413 /* ContentView.swift */; };
+		6224A4332B6D3A4E00126413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6224A4322B6D3A4E00126413 /* Assets.xcassets */; };
+		6224A4362B6D3A4E00126413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */; };
+		6224A4382B6D3A4E00126413 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4372B6D3A4E00126413 /* Persistence.swift */; };
+		6224A43B2B6D3A4E00126413 /* RoadTripCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4392B6D3A4E00126413 /* RoadTripCD.xcdatamodeld */; };
+		62706DDB2B7017A1009D8BCD /* TransportationTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DCD2B7017A1009D8BCD /* TransportationTypePicker.swift */; };
+		62706DDC2B7017A1009D8BCD /* TransportationTypeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DCE2B7017A1009D8BCD /* TransportationTypeTitleView.swift */; };
+		62706DDD2B7017A1009D8BCD /* TransportationTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DCF2B7017A1009D8BCD /* TransportationTypeView.swift */; };
+		62706DDE2B7017A1009D8BCD /* TransportationTypeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD02B7017A1009D8BCD /* TransportationTypeImageView.swift */; };
+		62706DDF2B7017A1009D8BCD /* EditableJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD22B7017A1009D8BCD /* EditableJourneyView.swift */; };
+		62706DE02B7017A1009D8BCD /* JourneyEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD32B7017A1009D8BCD /* JourneyEditorView.swift */; };
+		62706DE12B7017A1009D8BCD /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD42B7017A1009D8BCD /* JourneyView.swift */; };
+		62706DE22B7017A1009D8BCD /* JourneyStartDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD62B7017A1009D8BCD /* JourneyStartDatePicker.swift */; };
+		62706DE32B7017A1009D8BCD /* JourneyDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD72B7017A1009D8BCD /* JourneyDateView.swift */; };
+		62706DE42B7017A1009D8BCD /* JourneyEndTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD82B7017A1009D8BCD /* JourneyEndTimeView.swift */; };
+		62706DE52B7017A1009D8BCD /* JourneyStartDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD92B7017A1009D8BCD /* JourneyStartDateView.swift */; };
+		62706DE62B7017A1009D8BCD /* JourneyDurationSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DDA2B7017A1009D8BCD /* JourneyDurationSelector.swift */; };
+		62CC31B02B6E9B720024410B /* TransportationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31AF2B6E9B720024410B /* TransportationType.swift */; };
+		62CC31BD2B6FCE250024410B /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */; };
+		62CC31BE2B6FCE250024410B /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */; };
+		62CC31BF2B6FCE250024410B /* Journey+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */; };
+		62CC31C02B6FCE250024410B /* Journey+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6224A42B2B6D3A4D00126413 /* RoadTripCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadTripCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6224A42E2B6D3A4D00126413 /* RoadTripCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadTripCDApp.swift; sourceTree = "<group>"; };
+		6224A4302B6D3A4D00126413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6224A4322B6D3A4E00126413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6224A4372B6D3A4E00126413 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6224A43A2B6D3A4E00126413 /* RoadTripCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoadTripCD.xcdatamodel; sourceTree = "<group>"; };
+		62706DCD2B7017A1009D8BCD /* TransportationTypePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypePicker.swift; sourceTree = "<group>"; };
+		62706DCE2B7017A1009D8BCD /* TransportationTypeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeTitleView.swift; sourceTree = "<group>"; };
+		62706DCF2B7017A1009D8BCD /* TransportationTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeView.swift; sourceTree = "<group>"; };
+		62706DD02B7017A1009D8BCD /* TransportationTypeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeImageView.swift; sourceTree = "<group>"; };
+		62706DD22B7017A1009D8BCD /* EditableJourneyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableJourneyView.swift; sourceTree = "<group>"; };
+		62706DD32B7017A1009D8BCD /* JourneyEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyEditorView.swift; sourceTree = "<group>"; };
+		62706DD42B7017A1009D8BCD /* JourneyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		62706DD62B7017A1009D8BCD /* JourneyStartDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyStartDatePicker.swift; sourceTree = "<group>"; };
+		62706DD72B7017A1009D8BCD /* JourneyDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyDateView.swift; sourceTree = "<group>"; };
+		62706DD82B7017A1009D8BCD /* JourneyEndTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyEndTimeView.swift; sourceTree = "<group>"; };
+		62706DD92B7017A1009D8BCD /* JourneyStartDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyStartDateView.swift; sourceTree = "<group>"; };
+		62706DDA2B7017A1009D8BCD /* JourneyDurationSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyDurationSelector.swift; sourceTree = "<group>"; };
+		62706DEB2B7020D6009D8BCD /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../../../Extras/RoadTripCoreDataFiles/SwiftData/Location.swift; sourceTree = "<group>"; };
+		62706DEC2B7020D6009D8BCD /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Journey.swift; path = ../../../Extras/RoadTripCoreDataFiles/SwiftData/Journey.swift; sourceTree = "<group>"; };
+		62CC31AF2B6E9B720024410B /* TransportationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransportationType.swift; path = ../../../../Extras/RoadTripCoreDataFiles/TransportationType.swift; sourceTree = "<group>"; };
+		62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journey+CoreDataClass.swift"; sourceTree = "<group>"; };
+		62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journey+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6224A4282B6D3A4D00126413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6224A4222B6D3A4D00126413 = {
+			isa = PBXGroup;
+			children = (
+				62706DEB2B7020D6009D8BCD /* Location.swift */,
+				62706DEC2B7020D6009D8BCD /* Journey.swift */,
+				6224A42D2B6D3A4D00126413 /* RoadTripCD */,
+				6224A42C2B6D3A4D00126413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6224A42C2B6D3A4D00126413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6224A42B2B6D3A4D00126413 /* RoadTripCD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6224A42D2B6D3A4D00126413 /* RoadTripCD */ = {
+			isa = PBXGroup;
+			children = (
+				62706DCB2B7017A1009D8BCD /* Views */,
+				62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */,
+				62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */,
+				62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */,
+				62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */,
+				62CC31AF2B6E9B720024410B /* TransportationType.swift */,
+				6224A42E2B6D3A4D00126413 /* RoadTripCDApp.swift */,
+				6224A4302B6D3A4D00126413 /* ContentView.swift */,
+				6224A4322B6D3A4E00126413 /* Assets.xcassets */,
+				6224A4372B6D3A4E00126413 /* Persistence.swift */,
+				6224A4392B6D3A4E00126413 /* RoadTripCD.xcdatamodeld */,
+				6224A4342B6D3A4E00126413 /* Preview Content */,
+			);
+			path = RoadTripCD;
+			sourceTree = "<group>";
+		};
+		6224A4342B6D3A4E00126413 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62706DCB2B7017A1009D8BCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62706DCC2B7017A1009D8BCD /* Transportation Type Views */,
+				62706DD12B7017A1009D8BCD /* Journey Views */,
+				62706DD52B7017A1009D8BCD /* Date Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62706DCC2B7017A1009D8BCD /* Transportation Type Views */ = {
+			isa = PBXGroup;
+			children = (
+				62706DCD2B7017A1009D8BCD /* TransportationTypePicker.swift */,
+				62706DCE2B7017A1009D8BCD /* TransportationTypeTitleView.swift */,
+				62706DCF2B7017A1009D8BCD /* TransportationTypeView.swift */,
+				62706DD02B7017A1009D8BCD /* TransportationTypeImageView.swift */,
+			);
+			path = "Transportation Type Views";
+			sourceTree = "<group>";
+		};
+		62706DD12B7017A1009D8BCD /* Journey Views */ = {
+			isa = PBXGroup;
+			children = (
+				62706DD22B7017A1009D8BCD /* EditableJourneyView.swift */,
+				62706DD32B7017A1009D8BCD /* JourneyEditorView.swift */,
+				62706DD42B7017A1009D8BCD /* JourneyView.swift */,
+			);
+			path = "Journey Views";
+			sourceTree = "<group>";
+		};
+		62706DD52B7017A1009D8BCD /* Date Views */ = {
+			isa = PBXGroup;
+			children = (
+				62706DD62B7017A1009D8BCD /* JourneyStartDatePicker.swift */,
+				62706DD72B7017A1009D8BCD /* JourneyDateView.swift */,
+				62706DD82B7017A1009D8BCD /* JourneyEndTimeView.swift */,
+				62706DD92B7017A1009D8BCD /* JourneyStartDateView.swift */,
+				62706DDA2B7017A1009D8BCD /* JourneyDurationSelector.swift */,
+			);
+			path = "Date Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6224A42A2B6D3A4D00126413 /* RoadTripCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6224A43E2B6D3A4E00126413 /* Build configuration list for PBXNativeTarget "RoadTripCD" */;
+			buildPhases = (
+				6224A4272B6D3A4D00126413 /* Sources */,
+				6224A4282B6D3A4D00126413 /* Frameworks */,
+				6224A4292B6D3A4D00126413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadTripCD;
+			productName = RoadTripCD;
+			productReference = 6224A42B2B6D3A4D00126413 /* RoadTripCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6224A4232B6D3A4D00126413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6224A42A2B6D3A4D00126413 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 6224A4262B6D3A4D00126413 /* Build configuration list for PBXProject "RoadTripCD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6224A4222B6D3A4D00126413;
+			productRefGroup = 6224A42C2B6D3A4D00126413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6224A42A2B6D3A4D00126413 /* RoadTripCD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6224A4292B6D3A4D00126413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6224A4362B6D3A4E00126413 /* Preview Assets.xcassets in Resources */,
+				6224A4332B6D3A4E00126413 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6224A4272B6D3A4D00126413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62706DE22B7017A1009D8BCD /* JourneyStartDatePicker.swift in Sources */,
+				62706DE32B7017A1009D8BCD /* JourneyDateView.swift in Sources */,
+				62706DDD2B7017A1009D8BCD /* TransportationTypeView.swift in Sources */,
+				62CC31C02B6FCE250024410B /* Journey+CoreDataProperties.swift in Sources */,
+				62706DE62B7017A1009D8BCD /* JourneyDurationSelector.swift in Sources */,
+				62CC31BD2B6FCE250024410B /* Location+CoreDataClass.swift in Sources */,
+				62706DE12B7017A1009D8BCD /* JourneyView.swift in Sources */,
+				62CC31BE2B6FCE250024410B /* Location+CoreDataProperties.swift in Sources */,
+				62706DE42B7017A1009D8BCD /* JourneyEndTimeView.swift in Sources */,
+				62CC31B02B6E9B720024410B /* TransportationType.swift in Sources */,
+				62706DE02B7017A1009D8BCD /* JourneyEditorView.swift in Sources */,
+				6224A4382B6D3A4E00126413 /* Persistence.swift in Sources */,
+				6224A4312B6D3A4D00126413 /* ContentView.swift in Sources */,
+				62706DE52B7017A1009D8BCD /* JourneyStartDateView.swift in Sources */,
+				6224A42F2B6D3A4D00126413 /* RoadTripCDApp.swift in Sources */,
+				62706DDE2B7017A1009D8BCD /* TransportationTypeImageView.swift in Sources */,
+				62CC31BF2B6FCE250024410B /* Journey+CoreDataClass.swift in Sources */,
+				6224A43B2B6D3A4E00126413 /* RoadTripCD.xcdatamodeld in Sources */,
+				62706DDF2B7017A1009D8BCD /* EditableJourneyView.swift in Sources */,
+				62706DDB2B7017A1009D8BCD /* TransportationTypePicker.swift in Sources */,
+				62706DDC2B7017A1009D8BCD /* TransportationTypeTitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6224A43C2B6D3A4E00126413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6224A43D2B6D3A4E00126413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6224A43F2B6D3A4E00126413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoadTripCD/Preview Content\"";
+				DEVELOPMENT_TEAM = MG5SW9CY8D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimsumthinking.RoadTripCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6224A4402B6D3A4E00126413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RoadTripCD/Preview Content\"";
+				DEVELOPMENT_TEAM = MG5SW9CY8D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dimsumthinking.RoadTripCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6224A4262B6D3A4D00126413 /* Build configuration list for PBXProject "RoadTripCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6224A43C2B6D3A4E00126413 /* Debug */,
+				6224A43D2B6D3A4E00126413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6224A43E2B6D3A4E00126413 /* Build configuration list for PBXNativeTarget "RoadTripCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6224A43F2B6D3A4E00126413 /* Debug */,
+				6224A4402B6D3A4E00126413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6224A4392B6D3A4E00126413 /* RoadTripCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6224A43A2B6D3A4E00126413 /* RoadTripCD.xcdatamodel */,
+			);
+			currentVersion = 6224A43A2B6D3A4E00126413 /* RoadTripCD.xcdatamodel */;
+			path = RoadTripCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6224A4232B6D3A4D00126413 /* Project object */;
+}
