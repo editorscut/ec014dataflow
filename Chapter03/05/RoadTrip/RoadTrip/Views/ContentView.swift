@@ -12,4 +12,5 @@ extension ContentView: View {
 
 #Preview {
   ContentView()
+    .environmentObject(JourneyController())
 }

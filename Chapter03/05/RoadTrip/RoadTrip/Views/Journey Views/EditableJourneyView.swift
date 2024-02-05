@@ -15,4 +15,5 @@ extension EditableJourneyView: View {
 
 #Preview {
   EditableJourneyView()
+    .environmentObject(JourneyController())
 }
