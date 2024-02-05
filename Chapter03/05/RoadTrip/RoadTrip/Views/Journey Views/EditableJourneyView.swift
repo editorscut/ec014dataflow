@@ -8,7 +8,7 @@ extension EditableJourneyView: View {
     let _ = Self._printChanges()
     VStack {
       JourneyView()
-      JourneyEditorView()
+      JourneyEditor()
     }
   }
 }

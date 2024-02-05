@@ -13,11 +13,11 @@
 		6224A4362B6D3A4E00126413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */; };
 		6224A4382B6D3A4E00126413 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4372B6D3A4E00126413 /* Persistence.swift */; };
 		6224A43B2B6D3A4E00126413 /* RoadTripCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4392B6D3A4E00126413 /* RoadTripCD.xcdatamodeld */; };
-		62CC31B02B6E9B720024410B /* TransportationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31AF2B6E9B720024410B /* TransportationType.swift */; };
 		62CC31BD2B6FCE250024410B /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */; };
 		62CC31BE2B6FCE250024410B /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */; };
 		62CC31BF2B6FCE250024410B /* Journey+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */; };
 		62CC31C02B6FCE250024410B /* Journey+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */; };
+		62E7DDED2B718643000DE19F /* TransportationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7DDEC2B718643000DE19F /* TransportationType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +28,11 @@
 		6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6224A4372B6D3A4E00126413 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6224A43A2B6D3A4E00126413 /* RoadTripCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoadTripCD.xcdatamodel; sourceTree = "<group>"; };
-		62CC31AF2B6E9B720024410B /* TransportationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransportationType.swift; path = ../../../../Extras/RoadTripCoreDataFiles/TransportationType.swift; sourceTree = "<group>"; };
 		62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journey+CoreDataClass.swift"; sourceTree = "<group>"; };
 		62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journey+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		62E7DDEC2B718643000DE19F /* TransportationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +65,11 @@
 		6224A42D2B6D3A4D00126413 /* RoadTripCD */ = {
 			isa = PBXGroup;
 			children = (
+				62E7DDEC2B718643000DE19F /* TransportationType.swift */,
 				62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */,
 				62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */,
 				62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */,
 				62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */,
-				62CC31AF2B6E9B720024410B /* TransportationType.swift */,
 				6224A42E2B6D3A4D00126413 /* RoadTripCDApp.swift */,
 				6224A4302B6D3A4D00126413 /* ContentView.swift */,
 				6224A4322B6D3A4E00126413 /* Assets.xcassets */,
@@ -161,9 +161,9 @@
 				62CC31C02B6FCE250024410B /* Journey+CoreDataProperties.swift in Sources */,
 				62CC31BD2B6FCE250024410B /* Location+CoreDataClass.swift in Sources */,
 				62CC31BE2B6FCE250024410B /* Location+CoreDataProperties.swift in Sources */,
-				62CC31B02B6E9B720024410B /* TransportationType.swift in Sources */,
 				6224A4382B6D3A4E00126413 /* Persistence.swift in Sources */,
 				6224A4312B6D3A4D00126413 /* ContentView.swift in Sources */,
+				62E7DDED2B718643000DE19F /* TransportationType.swift in Sources */,
 				6224A42F2B6D3A4D00126413 /* RoadTripCDApp.swift in Sources */,
 				62CC31BF2B6FCE250024410B /* Journey+CoreDataClass.swift in Sources */,
 				6224A43B2B6D3A4E00126413 /* RoadTripCD.xcdatamodeld in Sources */,

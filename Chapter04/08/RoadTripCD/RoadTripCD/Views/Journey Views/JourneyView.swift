@@ -9,7 +9,7 @@ extension JourneyView: View {
     HStack {
       TransportationTypeView(transportationType: journey.transportationType)
       Spacer()
-      JourneyDateView(startDate: journey.startDate,
+      DateView(startDate: journey.startDate,
                       endDate: journey.endDate)
     }
     .padding()
