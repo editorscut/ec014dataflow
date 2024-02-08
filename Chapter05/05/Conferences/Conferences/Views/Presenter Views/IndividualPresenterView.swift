@@ -1,6 +1,8 @@
 import SwiftUI
+import SwiftData
 
 struct IndividualPresenterView {
+  let presenter: Presenter
 }
 
 extension IndividualPresenterView: View {
@@ -11,10 +13,11 @@ extension IndividualPresenterView: View {
       }
       OnlineLinksView()
     }
-    .navigationTitle("Presenter's name")
+    .navigationTitle(presenter.name)
   }
 }
 
 #Preview {
-  IndividualPresenterView()
+  IndividualPresenterView(presenter: Presenter(name: "Emily"))
+    .modelContainer(previewContainer)
 }

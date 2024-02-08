@@ -1,4 +1,4 @@
-enum LinkType: String, CaseIterable {
+enum LinkType: String, Codable, CaseIterable {
   case website
   case mastodon = "Mastodon"
   case linkedin = "LinkedIn"

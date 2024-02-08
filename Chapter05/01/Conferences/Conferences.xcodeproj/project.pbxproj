@@ -29,7 +29,7 @@
 		624A47252B72DCE90013828C /* IndividualPresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47242B72DCE90013828C /* IndividualPresenterView.swift */; };
 		624A47272B72DD090013828C /* IndividualOnlineLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47262B72DD090013828C /* IndividualOnlineLinkView.swift */; };
 		624A472E2B730FAC0013828C /* OnlineLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A472D2B730FAC0013828C /* OnlineLinksView.swift */; };
-		62987D582B750691008AB480 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62987D572B750691008AB480 /* PreviewData.swift */; };
+		62987D5A2B7506C2008AB480 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62987D592B7506C2008AB480 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,7 +56,7 @@
 		624A47242B72DCE90013828C /* IndividualPresenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualPresenterView.swift; sourceTree = "<group>"; };
 		624A47262B72DD090013828C /* IndividualOnlineLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualOnlineLinkView.swift; sourceTree = "<group>"; };
 		624A472D2B730FAC0013828C /* OnlineLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineLinksView.swift; sourceTree = "<group>"; };
-		62987D572B750691008AB480 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		62987D592B7506C2008AB480 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				624A46F82B72D79D0013828C /* Preview Assets.xcassets */,
-				62987D572B750691008AB480 /* PreviewData.swift */,
+				62987D592B7506C2008AB480 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 				624A47212B72DC970013828C /* PresentersView.swift in Sources */,
 				624A470F2B72D9840013828C /* Presenter+Utilities.swift in Sources */,
 				624A47232B72DCBC0013828C /* AddPresenterView.swift in Sources */,
-				62987D582B750691008AB480 /* PreviewData.swift in Sources */,
+				62987D5A2B7506C2008AB480 /* PreviewData.swift in Sources */,
 				624A47052B72D8B70013828C /* Session.swift in Sources */,
 				624A471E2B72DC500013828C /* TimeSlotChooserView.swift in Sources */,
 				624A471C2B72DC290013828C /* RelatedSessionView.swift in Sources */,

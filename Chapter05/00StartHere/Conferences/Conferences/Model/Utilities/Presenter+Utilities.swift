@@ -1,11 +1,11 @@
 extension Presenter {
   func link(for linkType: LinkType) -> OnlineLink? {
     // return first link in links with this linkType
-    return nil
+    nil
   }
   
-  func setLink(for linkType: LinkType,
-               to urlString: String) {
+  func setURL(for linkType: LinkType,
+              to urlString: String) {
     if let _ = link(for: linkType) {
       // change link's urlString
     } else {
