@@ -22,7 +22,7 @@
 		624A47162B72DB790013828C /* AddSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47152B72DB780013828C /* AddSessionView.swift */; };
 		624A47182B72DBB00013828C /* IndividualSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47172B72DBB00013828C /* IndividualSessionView.swift */; };
 		624A471A2B72DBFC0013828C /* SessionPresentersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47192B72DBFC0013828C /* SessionPresentersView.swift */; };
-		624A471C2B72DC290013828C /* RelatedSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A471B2B72DC290013828C /* RelatedSessionView.swift */; };
+		624A471C2B72DC290013828C /* RelatedSessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A471B2B72DC290013828C /* RelatedSessionsView.swift */; };
 		624A471E2B72DC500013828C /* TimeSlotChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A471D2B72DC500013828C /* TimeSlotChooserView.swift */; };
 		624A47212B72DC970013828C /* PresentersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47202B72DC970013828C /* PresentersView.swift */; };
 		624A47232B72DCBC0013828C /* AddPresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47222B72DCBC0013828C /* AddPresenterView.swift */; };
@@ -49,7 +49,7 @@
 		624A47152B72DB780013828C /* AddSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSessionView.swift; sourceTree = "<group>"; };
 		624A47172B72DBB00013828C /* IndividualSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualSessionView.swift; sourceTree = "<group>"; };
 		624A47192B72DBFC0013828C /* SessionPresentersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPresentersView.swift; sourceTree = "<group>"; };
-		624A471B2B72DC290013828C /* RelatedSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedSessionView.swift; sourceTree = "<group>"; };
+		624A471B2B72DC290013828C /* RelatedSessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedSessionsView.swift; sourceTree = "<group>"; };
 		624A471D2B72DC500013828C /* TimeSlotChooserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotChooserView.swift; sourceTree = "<group>"; };
 		624A47202B72DC970013828C /* PresentersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentersView.swift; sourceTree = "<group>"; };
 		624A47222B72DCBC0013828C /* AddPresenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPresenterView.swift; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				624A47192B72DBFC0013828C /* SessionPresentersView.swift */,
-				624A471B2B72DC290013828C /* RelatedSessionView.swift */,
+				624A471B2B72DC290013828C /* RelatedSessionsView.swift */,
 				624A471D2B72DC500013828C /* TimeSlotChooserView.swift */,
 			);
 			path = "Session Detail Views";
@@ -280,7 +280,7 @@
 				62987D5E2B750701008AB480 /* PreviewData.swift in Sources */,
 				624A47052B72D8B70013828C /* Session.swift in Sources */,
 				624A471E2B72DC500013828C /* TimeSlotChooserView.swift in Sources */,
-				624A471C2B72DC290013828C /* RelatedSessionView.swift in Sources */,
+				624A471C2B72DC290013828C /* RelatedSessionsView.swift in Sources */,
 				624A47142B72DB480013828C /* SessionsView.swift in Sources */,
 				624A470B2B72D9290013828C /* OnlineLink.swift in Sources */,
 				624A470D2B72D9550013828C /* LinkType.swift in Sources */,

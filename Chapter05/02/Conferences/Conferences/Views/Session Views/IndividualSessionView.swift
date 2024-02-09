@@ -17,7 +17,7 @@ extension IndividualSessionView: View {
           TimeSlotChooserView()
         }
         Section("Related Sessions:") {
-          RelatedSessionView()
+          RelatedSessionsView()
         }
         Section("Must have at least one presenter:") {
           SessionPresentersView()

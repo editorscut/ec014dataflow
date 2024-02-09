@@ -1,15 +1,15 @@
 import SwiftUI
 
-struct RelatedSessionView {
+struct RelatedSessionsView {
   
 }
 
-extension RelatedSessionView: View {
+extension RelatedSessionsView: View {
   var body: some View {
     Text("No related sessions")
   }
 }
 
 #Preview {
-  RelatedSessionView()
+  RelatedSessionsView()
 }

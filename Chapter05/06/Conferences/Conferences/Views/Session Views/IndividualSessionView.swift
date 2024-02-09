@@ -1,7 +1,10 @@
 import SwiftUI
+import SwiftData
 
 struct IndividualSessionView {
   @State private var title: String = ""
+  let session: Session
+  @State private var selectedPresenters: [Presenter] = []
 }
 
 extension IndividualSessionView: View {
@@ -17,14 +20,16 @@ extension IndividualSessionView: View {
           TimeSlotChooserView()
         }
         Section("Related Sessions:") {
-          RelatedSessionsView()
+          RelatedSessionsView(session: session)
         }
         Section("Must have at least one presenter:") {
-          SessionPresentersView()
+          SessionPresentersView(selectedPresenters: $selectedPresenters)
         }
       }
     }
-
+    .onAppear {
+      title = session.title
+    }
   }
 }
 
@@ -35,5 +40,6 @@ extension IndividualSessionView {
 }
 
 #Preview {
-  IndividualSessionView()
+  IndividualSessionView(session: Session(title: "Previewing"))
+    .modelContainer(previewContainer)
 }

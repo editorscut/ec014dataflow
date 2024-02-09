@@ -13,6 +13,24 @@ let previewContainer: ModelContainer = {
   }
 }()
 
+let previewPresenter: Presenter = {
+  let context = ModelContext(previewContainer)
+  if let previewPresenter = try? context.fetch(FetchDescriptor<Presenter>()).first {
+    return previewPresenter
+  } else {
+    fatalError("No Presenter in container")
+  }
+}()
+
+let previewSession: Session = {
+  let context = ModelContext(previewContainer)
+  if let previewSession = try? context.fetch(FetchDescriptor<Session>()).first {
+    return previewSession
+  } else {
+    fatalError("No Session in container")
+  }
+}()
+
 fileprivate func addSampleData(to container: ModelContainer) throws {
   let context = ModelContext(container)
   for presenter in presenters {
