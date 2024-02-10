@@ -7,7 +7,7 @@ class Presenter {
   
   @Relationship(deleteRule: .cascade,
                 inverse: \OnlineLink.presenter)
-  var links: [OnlineLink]?
+  var links: [OnlineLink] = []
   
   init(name: String) {
     self.name = name

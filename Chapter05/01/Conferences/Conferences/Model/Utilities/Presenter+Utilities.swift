@@ -1,6 +1,6 @@
 extension Presenter {
   func link(for linkType: LinkType) -> OnlineLink? {
-    links?.first(where: {$0.linkType == linkType})
+    links.first(where: {$0.linkType == linkType})
   }
   
   func setURL(for linkType: LinkType,
@@ -8,14 +8,8 @@ extension Presenter {
     if let link = link(for: linkType) {
       link.urlString = urlString
     } else {
-      let link = OnlineLink(linkType: linkType,
-                            urlString: urlString,
-                            presenter: self)
-      if var links {
-        links.append(link)
-      } else {
-        links = [link]
-      }
+        links.append(OnlineLink(linkType: linkType,
+                              urlString: urlString))
     }
   }
 }

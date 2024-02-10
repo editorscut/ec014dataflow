@@ -26,6 +26,8 @@ extension IndividualSessionView: View {
         }
       }
     }
+    .navigationTitle("Session Info")
+    .navigationBarTitleDisplayMode(.inline)
     .onAppear {
       title = session.title
     }
@@ -39,6 +41,8 @@ extension IndividualSessionView {
 }
 
 #Preview {
-  IndividualSessionView(session: Session(title: "Previewing"))
-    .modelContainer(previewContainer)
+  NavigationView {
+    IndividualSessionView(session: previewSession)
+      .modelContainer(previewContainer)
+  }
 }

@@ -35,5 +35,7 @@ extension IndividualSessionView {
 }
 
 #Preview {
-  IndividualSessionView()
+  NavigationStack {
+    IndividualSessionView()
+  }
 }

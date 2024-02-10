@@ -2,7 +2,7 @@ import SwiftData
 
 @Model
 class Session {
-  let title: String
+  var title: String
   
   @Relationship(inverse: \Presenter.sessions)
   var presenters: [Presenter] = []

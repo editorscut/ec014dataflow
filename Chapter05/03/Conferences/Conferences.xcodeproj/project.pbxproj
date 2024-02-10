@@ -28,7 +28,6 @@
 		624A47232B72DCBC0013828C /* AddPresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47222B72DCBC0013828C /* AddPresenterView.swift */; };
 		624A47252B72DCE90013828C /* IndividualPresenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47242B72DCE90013828C /* IndividualPresenterView.swift */; };
 		624A47272B72DD090013828C /* IndividualOnlineLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A47262B72DD090013828C /* IndividualOnlineLinkView.swift */; };
-		624A472E2B730FAC0013828C /* OnlineLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624A472D2B730FAC0013828C /* OnlineLinksView.swift */; };
 		62987D5E2B750701008AB480 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62987D5D2B750701008AB480 /* PreviewData.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +54,6 @@
 		624A47222B72DCBC0013828C /* AddPresenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPresenterView.swift; sourceTree = "<group>"; };
 		624A47242B72DCE90013828C /* IndividualPresenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualPresenterView.swift; sourceTree = "<group>"; };
 		624A47262B72DD090013828C /* IndividualOnlineLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualOnlineLinkView.swift; sourceTree = "<group>"; };
-		624A472D2B730FAC0013828C /* OnlineLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineLinksView.swift; sourceTree = "<group>"; };
 		62987D5D2B750701008AB480 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +119,6 @@
 				624A46F32B72D79C0013828C /* ContentView.swift */,
 				624A471F2B72DC770013828C /* Presenter Views */,
 				624A47122B72DB190013828C /* Session Views */,
-				624A472C2B730F0D0013828C /* OnlineLink Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,17 +170,9 @@
 				624A47202B72DC970013828C /* PresentersView.swift */,
 				624A47222B72DCBC0013828C /* AddPresenterView.swift */,
 				624A47242B72DCE90013828C /* IndividualPresenterView.swift */,
+				624A47262B72DD090013828C /* IndividualOnlineLinkView.swift */,
 			);
 			path = "Presenter Views";
-			sourceTree = "<group>";
-		};
-		624A472C2B730F0D0013828C /* OnlineLink Views */ = {
-			isa = PBXGroup;
-			children = (
-				624A47262B72DD090013828C /* IndividualOnlineLinkView.swift */,
-				624A472D2B730FAC0013828C /* OnlineLinksView.swift */,
-			);
-			path = "OnlineLink Views";
 			sourceTree = "<group>";
 		};
 		624A472F2B7310560013828C /* Session Detail Views */ = {
@@ -267,7 +256,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				624A46F42B72D79C0013828C /* ContentView.swift in Sources */,
-				624A472E2B730FAC0013828C /* OnlineLinksView.swift in Sources */,
 				624A46F22B72D79C0013828C /* ConferencesApp.swift in Sources */,
 				624A47252B72DCE90013828C /* IndividualPresenterView.swift in Sources */,
 				624A47182B72DBB00013828C /* IndividualSessionView.swift in Sources */,

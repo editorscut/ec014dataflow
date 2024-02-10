@@ -23,6 +23,6 @@ extension RelatedSessionsView  {
 }
 
 #Preview {
-  RelatedSessionsView(session: Session(title: "Previewing"))
+  RelatedSessionsView(session: previewSession)
     .modelContainer(previewContainer)
 }

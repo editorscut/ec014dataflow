@@ -9,15 +9,23 @@ extension IndividualPresenterView: View {
   var body: some View {
     List {
       Section("Sessions") {
-        Text("Session Title for presenter")
+        ForEach(presenter.sessions) {session in
+          Text(session.title)
+        }     
       }
-      OnlineLinksView()
+      ForEach(LinkType.allCases) { linkType in
+        Section( linkType.description) {
+          IndividualOnlineLinkView(linkType: linkType)
+        }
+      }
     }
     .navigationTitle(presenter.name)
   }
 }
 
 #Preview {
-  IndividualPresenterView(presenter: Presenter(name: "Emily"))
-    .modelContainer(previewContainer)
+  NavigationView {
+    IndividualPresenterView(presenter: previewPresenter)
+      .modelContainer(previewContainer)
+  }
 }

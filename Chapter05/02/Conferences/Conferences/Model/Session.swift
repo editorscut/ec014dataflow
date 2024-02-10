@@ -2,7 +2,7 @@ import SwiftData
 
 @Model
 class Session {
-  let title: String
+  var title: String
   var presenters: [Presenter] = []
   var timeSlot: TimeSlot?
   

@@ -9,12 +9,18 @@ extension IndividualPresenterView: View {
       Section("Sessions") {
         Text("Session Title for presenter")
       }
-      OnlineLinksView()
+      ForEach(LinkType.allCases) { linkType in
+        Section( linkType.description) {
+          IndividualOnlineLinkView(linkType: linkType)
+        }
+      }
     }
     .navigationTitle("Presenter's name")
   }
 }
 
 #Preview {
-  IndividualPresenterView()
+  NavigationStack {
+    IndividualPresenterView()
+  }
 }

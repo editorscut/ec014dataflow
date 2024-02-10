@@ -29,6 +29,7 @@ extension IndividualSessionView: View {
     }
     .onAppear {
       title = session.title
+      selectedPresenters = session.presenters
     }
   }
 }
@@ -40,6 +41,8 @@ extension IndividualSessionView {
 }
 
 #Preview {
-  IndividualSessionView(session: Session(title: "Previewing"))
-    .modelContainer(previewContainer)
+  NavigationStack {
+    IndividualSessionView(session: previewSession)
+      .modelContainer(previewContainer)
+  }
 }
