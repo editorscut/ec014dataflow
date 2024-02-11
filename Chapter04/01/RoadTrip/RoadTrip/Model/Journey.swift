@@ -6,7 +6,7 @@ class Journey: Identifiable {
   var transportationType: TransportationType
   var startDate: Date
   var duration: TimeInterval
-  var id: UUID
+  let id: UUID
   
   init(transportationType: TransportationType = TransportationType.random(),
        startDate: Date = Date().addingTimeInterval(TimeInterval.random(in: -7 * 24 * 60 * 60.0...0)),
