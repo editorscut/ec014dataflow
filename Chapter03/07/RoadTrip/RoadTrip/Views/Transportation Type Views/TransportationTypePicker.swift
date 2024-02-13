@@ -12,7 +12,6 @@ extension TransportationTypePicker: View {
            selection: $transportationType) {
       ForEach(types) {type in
         Image(systemName: type.iconName)
-          .tag(type)
       }
     }
            .pickerStyle(.segmented)
