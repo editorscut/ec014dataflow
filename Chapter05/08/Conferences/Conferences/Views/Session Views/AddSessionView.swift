@@ -2,8 +2,8 @@ import SwiftUI
 import SwiftData
 
 struct AddSessionView {
-  @Binding var isAddingSession: Bool
   @State private var title: String = ""
+  @Environment(\.dismiss) private var dismiss
   @State private var selectedPresenters: [Presenter] = []
   @Environment(\.modelContext) private var context
 }
@@ -26,8 +26,9 @@ extension AddSessionView: View {
       }
       HStack(spacing: 40) {
         Button("Cancel",
-               role: .cancel,
-               action: dismiss)
+               role: .cancel) {
+          dismiss()
+        }
         Button("Save",
                action: save)
         .disabled(title.isEmpty || selectedPresenters.isEmpty)
@@ -38,9 +39,6 @@ extension AddSessionView: View {
 }
 
 extension AddSessionView {
-  private func dismiss() {
-    isAddingSession = false
-  }
   private func save() {
     let session = Session(title: title)
     session.presenters = selectedPresenters
@@ -50,5 +48,5 @@ extension AddSessionView {
 }
 
 #Preview {
-  AddSessionView(isAddingSession: .constant(false))
+  AddSessionView()
 }

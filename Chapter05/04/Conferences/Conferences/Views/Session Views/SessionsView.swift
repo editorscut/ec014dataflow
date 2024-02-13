@@ -25,7 +25,7 @@ extension SessionsView: View {
       .navigationTitle("Sessions")
     }
     .sheet(isPresented: $isAddingSession) {
-      AddSessionView(isAddingSession: $isAddingSession)
+      AddSessionView()
     }
   }
 }

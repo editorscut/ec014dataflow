@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct AddSessionView {
-  @Binding var isAddingSession: Bool
   @State private var title: String = ""
+  @Environment(\.dismiss) private var dismiss
 }
 
 extension AddSessionView: View {
@@ -18,8 +18,9 @@ extension AddSessionView: View {
       }
       HStack(spacing: 40) {
         Button("Cancel",
-               role: .cancel,
-               action: dismiss)
+               role: .cancel) {
+          dismiss()
+        }
         Button("Save",
                action: save)
       }
@@ -29,14 +30,11 @@ extension AddSessionView: View {
 }
 
 extension AddSessionView {
-  private func dismiss() {
-    isAddingSession = false
-  }
   private func save() {
     dismiss()
   }
 }
 
 #Preview {
-  AddSessionView(isAddingSession: .constant(false))
+  AddSessionView()
 }

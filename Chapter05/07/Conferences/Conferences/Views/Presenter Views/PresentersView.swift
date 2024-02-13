@@ -42,7 +42,7 @@ extension PresentersView: View {
       }
     }
     .sheet(isPresented: $isAddingPresenter) {
-      AddPresenterView(isAddingPresenter: $isAddingPresenter)
+      AddPresenterView()
     }
   }
 }

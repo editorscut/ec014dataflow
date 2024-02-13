@@ -1,8 +1,8 @@
 import SwiftUI
 
 struct AddPresenterView {
-  @Binding var isAddingPresenter: Bool
   @State private var name: String = ""
+  @Environment(\.dismiss) private var dismiss
 }
 
 extension AddPresenterView: View {
@@ -13,8 +13,9 @@ extension AddPresenterView: View {
         .onSubmit {if !name.isEmpty  { save() } }
       HStack(spacing: 40) {
         Button("Cancel",
-               role: .cancel,
-               action: dismiss)
+               role: .cancel) {
+          dismiss()
+        }
         Button("Save",
                action: save)
         .disabled(name.isEmpty)
@@ -24,14 +25,11 @@ extension AddPresenterView: View {
 }
 
 extension AddPresenterView {
-  private func dismiss() {
-    isAddingPresenter = false
-  }
   private func save() {
     dismiss()
   }
 }
 
 #Preview {
-  AddSessionView(isAddingSession: .constant(false))
+  AddPresenterView()
 }

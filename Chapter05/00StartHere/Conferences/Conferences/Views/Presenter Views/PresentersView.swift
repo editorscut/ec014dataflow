@@ -25,7 +25,7 @@ extension PresentersView: View {
       .navigationTitle("Presenters")
     }
     .sheet(isPresented: $isAddingPresenter) {
-      AddPresenterView(isAddingPresenter: $isAddingPresenter)
+      AddPresenterView()
     }
   }
 }

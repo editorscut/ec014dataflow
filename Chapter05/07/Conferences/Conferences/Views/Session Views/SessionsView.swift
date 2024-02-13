@@ -39,7 +39,7 @@ extension SessionsView: View {
       }
     }
     .sheet(isPresented: $isAddingSession) {
-      AddSessionView(isAddingSession: $isAddingSession)
+      AddSessionView()
     }
   }
 }
