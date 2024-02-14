@@ -28,10 +28,15 @@ extension IndividualOnlineLinkView: View {
 
 extension IndividualOnlineLinkView {
   private func save() {
-    guard let storedURLString = presenter.link(for: linkType)?.urlString,
-          storedURLString != urlString  else { return }
-    presenter.setURL(for: linkType,
-                     to: urlString)
+    if let storedURLString = presenter.link(for: linkType)?.urlString {
+      if storedURLString != urlString {
+        presenter.setURL(for: linkType,
+                         to: urlString)
+      }
+    } else {
+      presenter.setURL(for: linkType,
+                       to: urlString)
+    }
   }
 }
 
