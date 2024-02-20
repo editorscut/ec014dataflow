@@ -8,7 +8,7 @@ public class Journey: NSManagedObject {
 
 extension Journey {
   convenience init() {
-    let context = PersistenceController.shared.container.newBackgroundContext()
+    let context = PersistenceController.shared.container.viewContext
     self.init(context: context)
     transportationTypeName = TransportationType.random().description
     startDate =  Date().addingTimeInterval(TimeInterval.random(in: -7 * 24 * 60 * 60.0...0))

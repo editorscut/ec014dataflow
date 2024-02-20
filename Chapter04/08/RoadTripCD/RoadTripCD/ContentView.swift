@@ -12,6 +12,7 @@ struct ContentView: View {
   
   var body: some View {
     NavigationView {
+      let _ = Self._printChanges()
       List {
         ForEach(journeys) { journey in
           NavigationLink {
