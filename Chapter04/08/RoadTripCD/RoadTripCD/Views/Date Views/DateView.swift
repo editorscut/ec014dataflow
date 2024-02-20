@@ -18,5 +18,5 @@ extension DateView: View {
 
 #Preview {
   DateView(startDate: Date(),
-                  endDate: Date().addingTimeInterval(1437))
+           endDate: Date().addingTimeInterval(1437))
 }

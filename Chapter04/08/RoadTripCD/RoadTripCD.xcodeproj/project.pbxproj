@@ -7,32 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621100042B84E75100BD2431 /* TransportationTypeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211FFFB2B84E75100BD2431 /* TransportationTypeTitleView.swift */; };
+		621100052B84E75100BD2431 /* TransportationTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211FFFC2B84E75100BD2431 /* TransportationTypeView.swift */; };
+		621100062B84E75100BD2431 /* TransportationTypeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211FFFD2B84E75100BD2431 /* TransportationTypeImageView.swift */; };
+		621100072B84E75100BD2431 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211FFFF2B84E75100BD2431 /* JourneyView.swift */; };
+		621100082B84E75100BD2431 /* EndTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621100012B84E75100BD2431 /* EndTimeView.swift */; };
+		621100092B84E75100BD2431 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621100022B84E75100BD2431 /* DateView.swift */; };
+		6211000A2B84E75100BD2431 /* StartDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621100032B84E75100BD2431 /* StartDateView.swift */; };
 		6224A42F2B6D3A4D00126413 /* RoadTripCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224A42E2B6D3A4D00126413 /* RoadTripCDApp.swift */; };
 		6224A4312B6D3A4D00126413 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4302B6D3A4D00126413 /* ContentView.swift */; };
 		6224A4332B6D3A4E00126413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6224A4322B6D3A4E00126413 /* Assets.xcassets */; };
 		6224A4362B6D3A4E00126413 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */; };
 		6224A4382B6D3A4E00126413 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4372B6D3A4E00126413 /* Persistence.swift */; };
 		6224A43B2B6D3A4E00126413 /* RoadTripCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6224A4392B6D3A4E00126413 /* RoadTripCD.xcdatamodeld */; };
-		62706DDB2B7017A1009D8BCD /* TransportationTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DCD2B7017A1009D8BCD /* TransportationTypePicker.swift */; };
-		62706DDC2B7017A1009D8BCD /* TransportationTypeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DCE2B7017A1009D8BCD /* TransportationTypeTitleView.swift */; };
-		62706DDD2B7017A1009D8BCD /* TransportationTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DCF2B7017A1009D8BCD /* TransportationTypeView.swift */; };
-		62706DDE2B7017A1009D8BCD /* TransportationTypeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD02B7017A1009D8BCD /* TransportationTypeImageView.swift */; };
-		62706DDF2B7017A1009D8BCD /* EditableJourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD22B7017A1009D8BCD /* EditableJourneyView.swift */; };
-		62706DE02B7017A1009D8BCD /* JourneyEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD32B7017A1009D8BCD /* JourneyEditor.swift */; };
-		62706DE12B7017A1009D8BCD /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD42B7017A1009D8BCD /* JourneyView.swift */; };
-		62706DE22B7017A1009D8BCD /* StartDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD62B7017A1009D8BCD /* StartDatePicker.swift */; };
-		62706DE32B7017A1009D8BCD /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD72B7017A1009D8BCD /* DateView.swift */; };
-		62706DE42B7017A1009D8BCD /* EndTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD82B7017A1009D8BCD /* EndTimeView.swift */; };
-		62706DE52B7017A1009D8BCD /* StartDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DD92B7017A1009D8BCD /* StartDateView.swift */; };
-		62706DE62B7017A1009D8BCD /* DurationSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62706DDA2B7017A1009D8BCD /* DurationSlider.swift */; };
 		62CC31BD2B6FCE250024410B /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */; };
 		62CC31BE2B6FCE250024410B /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */; };
 		62CC31BF2B6FCE250024410B /* Journey+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */; };
 		62CC31C02B6FCE250024410B /* Journey+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */; };
-		62E7DDEF2B71867F000DE19F /* TransportationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7DDEE2B71867F000DE19F /* TransportationType.swift */; };
+		62E7DDED2B718643000DE19F /* TransportationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E7DDEC2B718643000DE19F /* TransportationType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		621100012B84E75100BD2431 /* EndTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndTimeView.swift; sourceTree = "<group>"; };
+		621100022B84E75100BD2431 /* DateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		621100032B84E75100BD2431 /* StartDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartDateView.swift; sourceTree = "<group>"; };
+		6211000B2B84E7DE00BD2431 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6211000C2B84E7DE00BD2431 /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		6211FFFB2B84E75100BD2431 /* TransportationTypeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeTitleView.swift; sourceTree = "<group>"; };
+		6211FFFC2B84E75100BD2431 /* TransportationTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeView.swift; sourceTree = "<group>"; };
+		6211FFFD2B84E75100BD2431 /* TransportationTypeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeImageView.swift; sourceTree = "<group>"; };
+		6211FFFF2B84E75100BD2431 /* JourneyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
 		6224A42B2B6D3A4D00126413 /* RoadTripCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadTripCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6224A42E2B6D3A4D00126413 /* RoadTripCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadTripCDApp.swift; sourceTree = "<group>"; };
 		6224A4302B6D3A4D00126413 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,25 +44,11 @@
 		6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6224A4372B6D3A4E00126413 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6224A43A2B6D3A4E00126413 /* RoadTripCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoadTripCD.xcdatamodel; sourceTree = "<group>"; };
-		62706DCD2B7017A1009D8BCD /* TransportationTypePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypePicker.swift; sourceTree = "<group>"; };
-		62706DCE2B7017A1009D8BCD /* TransportationTypeTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeTitleView.swift; sourceTree = "<group>"; };
-		62706DCF2B7017A1009D8BCD /* TransportationTypeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeView.swift; sourceTree = "<group>"; };
-		62706DD02B7017A1009D8BCD /* TransportationTypeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTypeImageView.swift; sourceTree = "<group>"; };
-		62706DD22B7017A1009D8BCD /* EditableJourneyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableJourneyView.swift; sourceTree = "<group>"; };
-		62706DD32B7017A1009D8BCD /* JourneyEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyEditor.swift; sourceTree = "<group>"; };
-		62706DD42B7017A1009D8BCD /* JourneyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
-		62706DD62B7017A1009D8BCD /* StartDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartDatePicker.swift; sourceTree = "<group>"; };
-		62706DD72B7017A1009D8BCD /* DateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
-		62706DD82B7017A1009D8BCD /* EndTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndTimeView.swift; sourceTree = "<group>"; };
-		62706DD92B7017A1009D8BCD /* StartDateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartDateView.swift; sourceTree = "<group>"; };
-		62706DDA2B7017A1009D8BCD /* DurationSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DurationSlider.swift; sourceTree = "<group>"; };
-		62706DEB2B7020D6009D8BCD /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../../../Extras/RoadTripCoreDataFiles/SwiftData/Location.swift; sourceTree = "<group>"; };
-		62706DEC2B7020D6009D8BCD /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Journey.swift; path = ../../../Extras/RoadTripCoreDataFiles/SwiftData/Journey.swift; sourceTree = "<group>"; };
 		62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
 		62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journey+CoreDataClass.swift"; sourceTree = "<group>"; };
 		62CC31BC2B6FCE250024410B /* Journey+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Journey+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		62E7DDEE2B71867F000DE19F /* TransportationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationType.swift; sourceTree = "<group>"; };
+		62E7DDEC2B718643000DE19F /* TransportationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +62,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		621100002B84E75100BD2431 /* Date Views */ = {
+			isa = PBXGroup;
+			children = (
+				621100012B84E75100BD2431 /* EndTimeView.swift */,
+				621100022B84E75100BD2431 /* DateView.swift */,
+				621100032B84E75100BD2431 /* StartDateView.swift */,
+			);
+			path = "Date Views";
+			sourceTree = "<group>";
+		};
+		6211FFF92B84E75100BD2431 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6211FFFA2B84E75100BD2431 /* Transportation Type Views */,
+				6211FFFE2B84E75100BD2431 /* Journey Views */,
+				621100002B84E75100BD2431 /* Date Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6211FFFA2B84E75100BD2431 /* Transportation Type Views */ = {
+			isa = PBXGroup;
+			children = (
+				6211FFFB2B84E75100BD2431 /* TransportationTypeTitleView.swift */,
+				6211FFFC2B84E75100BD2431 /* TransportationTypeView.swift */,
+				6211FFFD2B84E75100BD2431 /* TransportationTypeImageView.swift */,
+			);
+			path = "Transportation Type Views";
+			sourceTree = "<group>";
+		};
+		6211FFFE2B84E75100BD2431 /* Journey Views */ = {
+			isa = PBXGroup;
+			children = (
+				6211FFFF2B84E75100BD2431 /* JourneyView.swift */,
+			);
+			path = "Journey Views";
+			sourceTree = "<group>";
+		};
 		6224A4222B6D3A4D00126413 = {
 			isa = PBXGroup;
 			children = (
-				62706DEB2B7020D6009D8BCD /* Location.swift */,
-				62706DEC2B7020D6009D8BCD /* Journey.swift */,
+				6211000B2B84E7DE00BD2431 /* Location.swift */,
+				6211000C2B84E7DE00BD2431 /* Journey.swift */,
 				6224A42D2B6D3A4D00126413 /* RoadTripCD */,
 				6224A42C2B6D3A4D00126413 /* Products */,
 			);
@@ -93,8 +121,8 @@
 		6224A42D2B6D3A4D00126413 /* RoadTripCD */ = {
 			isa = PBXGroup;
 			children = (
-				62E7DDEE2B71867F000DE19F /* TransportationType.swift */,
-				62706DCB2B7017A1009D8BCD /* Views */,
+				6211FFF92B84E75100BD2431 /* Views */,
+				62E7DDEC2B718643000DE19F /* TransportationType.swift */,
 				62CC31B92B6FCE250024410B /* Location+CoreDataClass.swift */,
 				62CC31BA2B6FCE250024410B /* Location+CoreDataProperties.swift */,
 				62CC31BB2B6FCE250024410B /* Journey+CoreDataClass.swift */,
@@ -115,49 +143,6 @@
 				6224A4352B6D3A4E00126413 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		62706DCB2B7017A1009D8BCD /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				62706DCC2B7017A1009D8BCD /* Transportation Type Views */,
-				62706DD12B7017A1009D8BCD /* Journey Views */,
-				62706DD52B7017A1009D8BCD /* Date Views */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		62706DCC2B7017A1009D8BCD /* Transportation Type Views */ = {
-			isa = PBXGroup;
-			children = (
-				62706DCD2B7017A1009D8BCD /* TransportationTypePicker.swift */,
-				62706DCE2B7017A1009D8BCD /* TransportationTypeTitleView.swift */,
-				62706DCF2B7017A1009D8BCD /* TransportationTypeView.swift */,
-				62706DD02B7017A1009D8BCD /* TransportationTypeImageView.swift */,
-			);
-			path = "Transportation Type Views";
-			sourceTree = "<group>";
-		};
-		62706DD12B7017A1009D8BCD /* Journey Views */ = {
-			isa = PBXGroup;
-			children = (
-				62706DD22B7017A1009D8BCD /* EditableJourneyView.swift */,
-				62706DD32B7017A1009D8BCD /* JourneyEditor.swift */,
-				62706DD42B7017A1009D8BCD /* JourneyView.swift */,
-			);
-			path = "Journey Views";
-			sourceTree = "<group>";
-		};
-		62706DD52B7017A1009D8BCD /* Date Views */ = {
-			isa = PBXGroup;
-			children = (
-				62706DD62B7017A1009D8BCD /* StartDatePicker.swift */,
-				62706DD72B7017A1009D8BCD /* DateView.swift */,
-				62706DD82B7017A1009D8BCD /* EndTimeView.swift */,
-				62706DD92B7017A1009D8BCD /* StartDateView.swift */,
-				62706DDA2B7017A1009D8BCD /* DurationSlider.swift */,
-			);
-			path = "Date Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,27 +215,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62706DE22B7017A1009D8BCD /* StartDatePicker.swift in Sources */,
-				62706DE32B7017A1009D8BCD /* DateView.swift in Sources */,
-				62706DDD2B7017A1009D8BCD /* TransportationTypeView.swift in Sources */,
+				621100092B84E75100BD2431 /* DateView.swift in Sources */,
+				621100062B84E75100BD2431 /* TransportationTypeImageView.swift in Sources */,
+				621100082B84E75100BD2431 /* EndTimeView.swift in Sources */,
 				62CC31C02B6FCE250024410B /* Journey+CoreDataProperties.swift in Sources */,
-				62706DE62B7017A1009D8BCD /* DurationSlider.swift in Sources */,
+				621100052B84E75100BD2431 /* TransportationTypeView.swift in Sources */,
+				6211000A2B84E75100BD2431 /* StartDateView.swift in Sources */,
+				621100072B84E75100BD2431 /* JourneyView.swift in Sources */,
 				62CC31BD2B6FCE250024410B /* Location+CoreDataClass.swift in Sources */,
-				62706DE12B7017A1009D8BCD /* JourneyView.swift in Sources */,
 				62CC31BE2B6FCE250024410B /* Location+CoreDataProperties.swift in Sources */,
-				62706DE42B7017A1009D8BCD /* EndTimeView.swift in Sources */,
-				62706DE02B7017A1009D8BCD /* JourneyEditor.swift in Sources */,
 				6224A4382B6D3A4E00126413 /* Persistence.swift in Sources */,
 				6224A4312B6D3A4D00126413 /* ContentView.swift in Sources */,
-				62706DE52B7017A1009D8BCD /* StartDateView.swift in Sources */,
+				621100042B84E75100BD2431 /* TransportationTypeTitleView.swift in Sources */,
+				62E7DDED2B718643000DE19F /* TransportationType.swift in Sources */,
 				6224A42F2B6D3A4D00126413 /* RoadTripCDApp.swift in Sources */,
-				62706DDE2B7017A1009D8BCD /* TransportationTypeImageView.swift in Sources */,
 				62CC31BF2B6FCE250024410B /* Journey+CoreDataClass.swift in Sources */,
 				6224A43B2B6D3A4E00126413 /* RoadTripCD.xcdatamodeld in Sources */,
-				62706DDF2B7017A1009D8BCD /* EditableJourneyView.swift in Sources */,
-				62706DDB2B7017A1009D8BCD /* TransportationTypePicker.swift in Sources */,
-				62706DDC2B7017A1009D8BCD /* TransportationTypeTitleView.swift in Sources */,
-				62E7DDEF2B71867F000DE19F /* TransportationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

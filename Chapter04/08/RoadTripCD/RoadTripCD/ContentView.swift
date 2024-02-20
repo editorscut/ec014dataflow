@@ -12,11 +12,16 @@ struct ContentView: View {
   
   var body: some View {
     NavigationView {
-      let _ = Self._printChanges()
       List {
         ForEach(journeys) { journey in
           NavigationLink {
-            EditableJourneyView(journey: journey)
+            Map(bounds: MapCameraBounds(minimumDistance: 200000,
+                                       maximumDistance: 400000),
+                interactionModes: .all) {
+              Marker(coordinate: journey.startingPoint.coordinates) {
+                Text("Starting Point")
+              }
+            }
           } label: {
             JourneyView(journey: journey)
           }

@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct JourneyView {
-  @ObservedObject var journey: Journey
+  let journey: Journey
 }
 
 extension JourneyView: View {
