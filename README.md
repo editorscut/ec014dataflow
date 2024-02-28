@@ -1,2 +1,3 @@
 # ec014dataflow
-Code repo for DataFlow book
+
+This is the code for "The Mystery of the Mutating Mannequin"
